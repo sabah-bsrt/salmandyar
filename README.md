@@ -1,16 +1,115 @@
-# React + Vite
+# Salmandyar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Smart Companionship for a Better Life**
 
-Currently, two official plugins are available:
+Salmandyar is a responsive web application designed to support older adults by providing a user-friendly digital platform for senior assistance and companionship.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About the Project
 
-## React Compiler
+The goal of Salmandyar is to create an accessible and easy-to-use platform that can help older adults access useful services and support.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is currently under development. The current focus is on building the frontend interface and implementing the main user authentication pages.
 
-## Expanding the ESLint configuration
+## Current Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Welcome page
+- User Login page
+- User Sign Up page
+- Forgot Password page
+- Responsive layout for different screen sizes
+- Form input validation using HTML and React
+
+## Technologies Used
+
+- **React.js** – Building the user interface
+- **JavaScript** – Application logic
+- **HTML5** – Page structure
+- **CSS3** – Styling and responsive design
+- **Vite** – Development environment and build tool
+- **Git & GitHub** – Version control and project management
+
+## Project Structure
+
+```text
+Salmandyar/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   └── ForgotPassword.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Salmandyar.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Salmandyar
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL displayed in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## Development Status
+
+**Status: In Progress**
+
+The current version focuses on frontend development.
+
+Planned future improvements include:
+
+- User authentication and account management
+- Password recovery functionality
+- Backend development and database integration
+- Additional senior assistance features
+- Accessibility improvements
+
+## Note
+
+This project is currently a frontend prototype. Authentication forms and password recovery interfaces are not yet connected to a backend service.
+
+## Author
+
+Developed as a personal software development project.
